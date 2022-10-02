@@ -4,60 +4,31 @@
         <meta charset="UTF-8">
         <meta name="description" content="This website displays Jake Davis' professional portfolio.">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <style>
-            body    {background-color: aliceblue;}
-            h1      {color:black;
-                     font-family: tahoma;
-                     font-size: 350%;
-                     line-height: 30px;}
-            h2      {color: black;
-                     font-style: normal;
-                     font-weight: normal;
-                     font-family: tahoma;
-                     font-size: 225%;
-                     line-height: 12px;}
-            h3      {color:black;
-                     font-style: normal;
-                     font-weight: normal;
-                     font-family: tahoma;
-                     font-size: 175%;
-                     line-height: 30px;}
-            p       {color:black;
-                     font-family: tahoma;
-                     font-size: 110%;
-                     line-height: 12px;}
-            .bottom-two {margin-bottom: 2cm;
-                         text-align: center;}
-            .c      {text-align: center;}
-            .cb     {position: fixed;
-                     bottom: 0;
-                     width: 100%;
-                     text-align: center;}
-            a:link  {color: black;
-                     text-decoration: none;}
-            a:visited  {color: black;
-                     text-decoration: none;}
-            a:hover  {color: black;
-                     text-decoration: underline;}
-        </style>
+        <link rel="stylesheet" href="styles.css">
         <title>Jake Davis Portfolio</title>
     </head>
 
     <body>
-
+        <div class="left">
         <section>
             <h1 class="c">Jake Davis</h1.c>
             <h2 class="bottom-two"><i>Mechanical Engineer</i></h2>
-            <h3 class="c"> <a href="design.html"> Design </a> </h3>
-            <h3 class="c"> <a href="analysis.html"> Analysis </a>  </h3>
-            <h3 class="c"> <a href="manufacturing.html"> Manufacturing </a>  </h3>
-            <h3 class="c"> <a href="test.html"> Test </a>  </h3>
+            <h3 class="c"> <a href="pages/about.html"> About </a> </h3>
+            <h3 class="c"> <a href="pages/design.html"> Design </a> </h3>
+            <h3 class="c"> <a href="pages/analysis.html"> Analysis </a>  </h3>
+            <h3 class="c"> <a href="pages/manufacturing.html"> Manufacturing </a>  </h3>
+            <h3 class="c"> <a href="pages/test.html"> Test </a>  </h3>
         </section>
+        </div>
+        <div class="right">
+            <img src="images/cover_photo.jpg" alt="Jake Davis Cover Image"
+                style="width:40%" class="pic-center-right" >
+        </div>
         <footer>
             <p class="cb"> 
                 <a href="index.html"> <i>Home</i> </a> 
                 |
-                <a href="https://www.linkedin.com/in/jake-davis-mech-e/"> <i>LinkedIn</i></a> 
+                <a href="https://www.linkedin.com/in/jake-davis-mech-e/" target="_blank"> <i>LinkedIn</i></a> 
             </p>
         </footer>
 
